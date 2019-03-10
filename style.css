@@ -1,0 +1,625 @@
+/* ____fonts______ */
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/MavenPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  width: 1020px;
+  margin: 0px auto;
+}
+
+/* header */
+
+/* ______________________menu_________________________________ */
+
+header {
+  width: 100%;
+  height: 63px;
+  background-color: #323232;
+}
+
+ul {
+  margin: 0px auto;
+  width: 385px;
+  height: 63px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  margin-top: 27px;
+  display: block;
+  width: 82px;
+  height: 36px;
+  text-align: center;
+}
+
+a {
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #2eb398;
+}
+
+.menu-item1 {
+  position: relative;
+  left: 6px;
+}
+
+.menu-item2 {
+  position: relative;
+  right: 1px;
+}
+
+.menu-item4 {
+  position: relative;
+  left: 3px;
+}
+
+.menu-item5 {
+  position: relative;
+  right: 2px;
+}
+
+.menu-item1::after {
+  content: "・";
+  color: #474c5f;
+  position: relative;
+  left: 7px;
+  top: 1px;
+}
+
+.menu-item4::after {
+  content: "・";
+  color: #474c5f;
+  position: relative;
+  left: 7px;
+  top: 1px;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-left: 13px;
+  margin-right: 15px;
+}
+
+/* ______________________trangle, line under menu__________________________ */
+
+.wrapper {
+  width: 1000px;
+  margin: 27px auto 0px;
+  text-align: center;
+}
+
+.triangle {
+  margin-right: 4px;
+  width: 0px;
+  height: 0px;
+  border-left: 47px solid transparent;
+  border-right: 47px solid transparent;
+  border-top: 27px solid #323232;
+}
+
+.wrapper:before {
+  content: "——————————————————————————";
+  color: #e4e9eb;
+  position: relative;
+  top: -24px;
+  right: 20px;
+}
+
+.wrapper:after {
+  content: "——————————————————————————";
+  color: #e4e9eb;
+  position: relative;
+  top: -24px;
+  left: 21px;
+}
+
+/* main */
+
+/* ___________________________________portfolio hexagon_______________________________ */
+
+main {
+  height: 973px;
+  width: 100%px;
+  margin: 0px auto;
+}
+
+.hex-container {
+  margin: 89px auto 0px;
+}
+
+.lineleft {
+  height: 104px;
+  width: 1px;
+  margin: 52px 10px 0px 0px;
+  background-color: #e4e9eb;
+}
+
+.lineright {
+  height: 104px;
+  width: 1px;
+  margin: 52px 0px 0px 10px;
+  background-color: #e4e9eb;
+}
+
+/* >>>>>>>>>>hexagon<<<<<<<<<<<<<<<<< */
+
+.hexagon {
+  width: 180px;
+  height: 209px;
+  margin: 0px 10px;
+  overflow: hidden;
+  visibility: hidden;
+  transform: rotate(120deg);
+}
+
+.hexagona {
+  width: 179px;
+  height: 208px;
+  margin: 4px 10px 4px 7px;
+  overflow: hidden;
+  visibility: hidden;
+  transform: rotate(120deg);
+}
+
+.hex-layer-1 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.hex-layer-2 {
+  width: 100%;
+  height: 100%;
+  background: #cccc;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+}
+
+/*>>>>>>>>>>>>> image of hex<<<<<<<<<<<<<<<<<<<< */
+
+.im1 {
+  background: url(/assets/images/Layer\ 11.png) 48% 52% no-repeat;
+}
+
+.im2 {
+  background: url(/assets/images/Layer\ 12.png) 48% 52% no-repeat;
+}
+
+.im3 {
+  background: url(/assets/images/Layer\ 13.png) 48% 52% no-repeat;
+}
+
+.im4 {
+  background: url(/assets/images/Layer\ 14.png) 48% 52% no-repeat;
+}
+
+.im5 {
+  background: url(/assets/images/Layer\ 21.png) 48% 52% no-repeat;
+}
+
+.im6 {
+  background: url(/assets/images/Layer\ 22.png) 48% 52% no-repeat;
+}
+
+.im7 {
+  background: url(/assets/images/Layer\ 23.png) 48% 52% no-repeat;
+}
+
+.im8 {
+  background: url(/assets/images/Layer\ 24.png) 48% 52% no-repeat;
+}
+
+.im9 {
+  background: url(/assets/images/Layer\ 25.png) 48% 52% no-repeat;
+}
+
+.im10 {
+  background: url(/assets/images/Layer\ 31.png) 48% 52% no-repeat;
+}
+
+.im11 {
+  background: url(/assets/images/Layer\ 32.png) 48% 52% no-repeat;
+}
+
+.im12 {
+  background: url(/assets/images/Layer\ 33.png) 48% 52% no-repeat;
+}
+
+.im13 {
+  background: url(/assets/images/Layer\ 34.png) 48% 52% no-repeat;
+}
+
+.autor {
+  background: url(/assets/images/autor.png) 48% 52% no-repeat;
+}
+
+.first-hex-line {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  height: 200px;
+  width: 822px;
+  margin: 0 auto;
+}
+
+.second-hex-line {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  height: 206px;
+  width: 1000px;
+  margin: -32px auto 0;
+}
+
+.third-hex-line {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  height: 206px;
+  width: 822px;
+  margin: -38px auto 0;
+}
+
+/* >>>>>>>>>>>>>>pseudoslider<<<<<<<<<<<<<<<<<<< */
+
+.line-conteiner {
+  height: 29px;
+  width: 960px;
+  margin: 61px auto 0px;
+}
+
+.line {
+  height: 1px;
+  width: 960px;
+  background-color: #e4e9eb;
+  position: relative;
+  top: 11px;
+}
+
+li.square {
+  margin-top: 0px;
+  height: 6px;
+  width: 6px;
+  background-color: #ddd2c5;
+}
+
+.slider {
+  margin-left: 0px;
+  width: 51px;
+  height: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.square:hover {
+  background-color: #8b8784;
+}
+
+/*___________________________________info_________________________________________________________ */
+
+.leftline {
+  width: 1px;
+  height: 316px;
+  background-color: #219d84;
+  position: relative;
+  bottom: 50px;
+  right: 11px;
+}
+
+.rightline {
+  width: 1px;
+  height: 316px;
+  background-color: #219d84;
+  position: relative;
+  bottom: 50px;
+  left: 12px;
+}
+
+.info {
+  height: 211px;
+  width: 100%;
+  background-color: #2eb398;
+  padding: 63px 0px 67px;
+}
+
+.content {
+  margin: 0px auto;
+  display: flex;
+  width: 800px;
+  height: 206px;
+  justify-content: space-between;
+}
+
+.txt {
+  margin-left: 5px;
+  width: 590px;
+  height: 206;
+}
+
+h1 {
+  font-size: 30px;
+  color: #d7fcf5;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.tema {
+  margin-top: 3px;
+  font-size: 18px;
+  color: rgb(32, 129, 109);
+  font-family: "Maven Pro", sans-serif;
+}
+
+.text {
+  margin-top: 14px;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(215, 252, 245);
+  line-height: 1.797;
+  margin-left: 3px;
+}
+
+.social {
+  margin-top: 11px;
+  margin-left: 437px;
+  width: 147px;
+  height: 24px;
+  display: flex;
+}
+
+/* hover social */
+
+.social1 {
+  display: block;
+  width: 25px;
+  height: 24px;
+  background: url(/assets/images/Facebook.png);
+}
+
+.social2 {
+  display: block;
+  width: 25px;
+  height: 24px;
+  background: url(/assets/images/Twitter.png);
+}
+
+.social3 {
+  display: block;
+  width: 25px;
+  height: 24px;
+  background: url(/assets/images/Google.png);
+}
+
+.social4 {
+  display: block;
+  width: 25px;
+  height: 24px;
+  background: url(/assets/images/Pinterest.png);
+}
+
+.social5 {
+  display: block;
+  width: 25px;
+  height: 24px;
+  background: url(/assets/images/Linkedin.png);
+}
+
+.social6 {
+  display: block;
+  width: 25px;
+  height: 24px;
+  background: url(/assets/images/Dribbble.png);
+}
+
+.social1:hover {
+  background: url(/assets/images/Facebook1.png);
+  cursor: pointer;
+}
+
+.social2:hover {
+  background: url(/assets/images/Twitter1.png);
+  cursor: pointer;
+}
+
+.social3:hover {
+  background: url(/assets/images/Google1.png);
+  cursor: pointer;
+}
+
+.social4:hover {
+  background: url(/assets/images/Pinterest1.png);
+  cursor: pointer;
+}
+
+.social5:hover {
+  background: url(/assets/images/Linkedin1.png);
+  cursor: pointer;
+}
+
+.social6:hover {
+  background: url(/assets/images/Dribbble1.png);
+  cursor: pointer;
+}
+
+/* ______________________footer__________________________________ */
+
+.footer {
+  height: 504px;
+  width: 100%;
+  background-color: #323232;
+  margin: 0px auto;
+  padding-top: 61px;
+  border-bottom: 41px solid #222222;
+}
+
+.linetop {
+  width: 960px;
+  height: 1px;
+  background-color: #2b2b2b;
+  position: relative;
+  bottom: 49px;
+  left: 30px;
+}
+
+.linebottom {
+  width: 960px;
+  height: 1px;
+  background-color: #2b2b2b;
+  position: relative;
+  bottom: 10px;
+  left: 30px;
+}
+
+/*form */
+
+.form {
+  width: 1020px;
+  margin: 0px auto;
+  display: flex;
+}
+::-webkit-input-placeholder{
+  color: rgb(190, 190, 190);
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  line-height: 1.797;
+}
+
+input {
+  display: block;
+  height: 36px;
+  width: 565px;
+  background-color: #454545;
+  border: none;
+  resize: none;
+  margin: 16px 0px;
+  padding-left: 15px;
+}
+
+textarea {
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(190, 190, 190);
+  margin: 16px 0px;
+  display: block;
+  border: none;
+  width: 563px;
+  height: 138px;
+  resize: none;
+  background-color: #454545;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.forminfo {
+  display: block;
+  width: 580px;
+  height: 500px;
+  margin-left: 120px;
+}
+.b{
+  font-weight: bold;
+}
+button {
+  margin-left: 490px;
+  height: 37px;
+  width: 90px;
+  background-color: #2eb398;
+  border: none;
+  color: #d7fcf5;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(215, 252, 245);
+  font-weight: bold;
+}
+
+.getintouch {
+  font-size: 30px;
+  color: rgb(224, 224, 224);
+  font-family: "Maven Pro", sans-serif;
+}
+
+.text2 {
+  margin-top: 3px;
+  margin-left: 1px;
+  font-size: 18px;
+  font-family: "Maven Pro", sans-serif;
+  color: rgb(190, 190, 190);
+}
+
+form {
+  margin-top: 5px;
+}
+
+.t {
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.797;
+  color: rgb(224, 224, 224);
+  text-align: justify;
+}
+
+.contact {
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(224, 224, 224);
+  line-height: 1.8;
+  margin-left: 19px;
+  margin-top: 66px;
+  display: block;
+  width: 191px;
+  height: 215px;
+}
+
+.cont {
+  margin-top: 39px;
+  display: flex;
+  width: 180px;
+  height: 57px;
+}
+
+.contact-icon {
+  display: block;
+  width: 13px;
+  height: 21px;
+}
+
+.icon-container {
+  width: 13px;
+  height: 57px;
+  margin-right: 11px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*>>>>>>>>>>>>copyright<<<<<<<<<<<<<<<<<<<<<< */
+
+.copyright {
+  color: #3e3e3e;
+  font-size: 12px;
+  font-family: "Maven Pro", sans-serif;
+  position: relative;
+  top: 17px;
+  left: 37px;
+}
