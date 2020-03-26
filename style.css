@@ -2,14 +2,14 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/assets/fonts/Lato-Regular.ttf') format('truetype');
+  src: url('/hexal/assets/fonts/Lato-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lato';
-  src: url('/assets/fonts/MavenPro-Regular.ttf') format('truetype');
+  src: url('/hexal/assets/fonts/MavenPro-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -200,59 +200,59 @@ main {
 /*>>>>>>>>>>>>> image of hex<<<<<<<<<<<<<<<<<<<< */
 
 .im1 {
-  background: url(/assets/images/Layer\ 11.png) 48% 52% no-repeat;
+  background: url(/hexal/assets/images/Layer\ 11.png) 48% 52% no-repeat;
 }
 
 .im2 {
-  background: url(/assets/images/Layer\ 12.png) 48% 52% no-repeat;
+  background: url(/hexal/assets/images/Layer\ 12.png) 48% 52% no-repeat;
 }
 
 .im3 {
-  background: url(/assets/images/Layer\ 13.png) 48% 52% no-repeat;
+  background: url(/hexal/assets/images/Layer\ 13.png) 48% 52% no-repeat;
 }
 
 .im4 {
-  background: url(/assets/images/Layer\ 14.png) 48% 52% no-repeat;
+  background: url(/hexal/assets/images/Layer\ 14.png) 48% 52% no-repeat;
 }
 
 .im5 {
-  background: url(/assets/images/Layer\ 21.png) 48% 52% no-repeat;
+  background: url(/hexal/assets/images/Layer\ 21.png) 48% 52% no-repeat;
 }
 
 .im6 {
-  background: url(/assets/images/Layer\ 22.png) 48% 52% no-repeat;
+  background: url(/hexal/assets/images/Layer\ 22.png) 48% 52% no-repeat;
 }
 
 .im7 {
-  background: url(/assets/images/Layer\ 23.png) 48% 52% no-repeat;
+  background: url(/hexal/assets/images/Layer\ 23.png) 48% 52% no-repeat;
 }
 
 .im8 {
-  background: url(/assets/images/Layer\ 24.png) 48% 52% no-repeat;
+  background: url(/hexal/assets/images/Layer\ 24.png) 48% 52% no-repeat;
 }
 
 .im9 {
-  background: url(/assets/images/Layer\ 25.png) 48% 52% no-repeat;
+  background: url(/hexal/assets/images/Layer\ 25.png) 48% 52% no-repeat;
 }
 
 .im10 {
-  background: url(/assets/images/Layer\ 31.png) 48% 52% no-repeat;
+  background: url(/hexal/assets/images/Layer\ 31.png) 48% 52% no-repeat;
 }
 
 .im11 {
-  background: url(/assets/images/Layer\ 32.png) 48% 52% no-repeat;
+  background: url(/hexal/assets/images/Layer\ 32.png) 48% 52% no-repeat;
 }
 
 .im12 {
-  background: url(/assets/images/Layer\ 33.png) 48% 52% no-repeat;
+  background: url(/hexal/assets/images/Layer\ 33.png) 48% 52% no-repeat;
 }
 
 .im13 {
-  background: url(/assets/images/Layer\ 34.png) 48% 52% no-repeat;
+  background: url(/hexal/assets/images/Layer\ 34.png) 48% 52% no-repeat;
 }
 
 .autor {
-  background: url(/assets/images/autor.png) 48% 52% no-repeat;
+  background: url(/hexal/assets/images/autor.png) 48% 52% no-repeat;
 }
 
 .first-hex-line {
@@ -394,71 +394,71 @@ h1 {
   display: block;
   width: 25px;
   height: 24px;
-  background: url(/assets/images/Facebook.png);
+  background: url(/hexal/assets/images/Facebook.png);
 }
 
 .social2 {
   display: block;
   width: 25px;
   height: 24px;
-  background: url(/assets/images/Twitter.png);
+  background: url(/hexal/assets/images/Twitter.png);
 }
 
 .social3 {
   display: block;
   width: 25px;
   height: 24px;
-  background: url(/assets/images/Google.png);
+  background: url(/hexal/assets/images/Google.png);
 }
 
 .social4 {
   display: block;
   width: 25px;
   height: 24px;
-  background: url(/assets/images/Pinterest.png);
+  background: url(/hexal/assets/images/Pinterest.png);
 }
 
 .social5 {
   display: block;
   width: 25px;
   height: 24px;
-  background: url(/assets/images/Linkedin.png);
+  background: url(/hexal/assets/images/Linkedin.png);
 }
 
 .social6 {
   display: block;
   width: 25px;
   height: 24px;
-  background: url(/assets/images/Dribbble.png);
+  background: url(/hexal/assets/images/Dribbble.png);
 }
 
 .social1:hover {
-  background: url(/assets/images/Facebook1.png);
+  background: url(/hexal/assets/images/Facebook1.png);
   cursor: pointer;
 }
 
 .social2:hover {
-  background: url(/assets/images/Twitter1.png);
+  background: url(/hexal/assets/images/Twitter1.png);
   cursor: pointer;
 }
 
 .social3:hover {
-  background: url(/assets/images/Google1.png);
+  background: url(/hexal/assets/images/Google1.png);
   cursor: pointer;
 }
 
 .social4:hover {
-  background: url(/assets/images/Pinterest1.png);
+  background: url(/hexal/assets/images/Pinterest1.png);
   cursor: pointer;
 }
 
 .social5:hover {
-  background: url(/assets/images/Linkedin1.png);
+  background: url(/hexal/assets/images/Linkedin1.png);
   cursor: pointer;
 }
 
 .social6:hover {
-  background: url(/assets/images/Dribbble1.png);
+  background: url(/hexal/assets/images/Dribbble1.png);
   cursor: pointer;
 }
 
